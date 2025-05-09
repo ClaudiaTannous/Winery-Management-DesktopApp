@@ -30,7 +30,7 @@ This project was developed using Java and Eclipse IDE. It connects to a local `.
 ├── src/ # Java source files
 ├── database1/
 │ ├── database/
-│ │ └── ex3_324991892_212015739_one.accdb # Microsoft Access database
+│ │ └── WineryDataBase.accdb # Microsoft Access database
 │ ├── json/ # Optional JSON storage
 │ ├── xml/ # Optional XML storage
 │ └── WineryDesktopApp.jar # Compiled executable JAR file
@@ -55,7 +55,7 @@ Important Notes:
 
 Ensure that the JAR file (WineryDesktopApp.jar) is located inside the database1/ directory.
 
-The Microsoft Access database file (ex3_324991892_212015739_one.accdb) must be located at:database1/database/ex3_324991892_212015739_one.accdb
+The Microsoft Access database file (WineryDataBase.accdb) must be located at:database1/database/WineryDataBase.accdb
 If you move or rename the database file or folder, make sure to update the JDBC connection path in the source code.
 
 Prerequisites:
