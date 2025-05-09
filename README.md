@@ -49,9 +49,20 @@ This project was developed using Java and Eclipse IDE. It connects to a local `.
 
 To launch the application:
 
-```bash
 java -jar database1/WineryDesktopApp.jar
-Note: The Access database file must remain in database1/database/ as expected by the internal JDBC path configuration.
+
+Important Notes:
+
+Ensure that the JAR file (WineryDesktopApp.jar) is located inside the database1/ directory.
+
+The Microsoft Access database file (ex3_324991892_212015739_one.accdb) must be located at:database1/database/ex3_324991892_212015739_one.accdb
+If you move or rename the database file or folder, make sure to update the JDBC connection path in the source code.
+
+Prerequisites:
+
+Java Runtime Environment (JRE) 8 or later must be installed on your system.
+
+Microsoft Access Database Engine must be installed to allow .accdb file access. If running on a 64-bit system, ensure you use the 64-bit version of the engine.
 
 ## License
 
